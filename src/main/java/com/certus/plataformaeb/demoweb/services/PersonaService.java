@@ -10,7 +10,7 @@ import com.certus.plataformaeb.demoweb.interfaceService.IpersonaService;
 import com.certus.plataformaeb.demoweb.interfaces.IPersona;
 import com.certus.plataformaeb.demoweb.modelo.Persona;
 @Service
-
+//creacion de los gt and st
 public class PersonaService implements IpersonaService {
 	@Autowired
 	private IPersona data;
@@ -35,7 +35,7 @@ public class PersonaService implements IpersonaService {
 		}
 		return res;
 	}
-
+	
 	@Override
 	public void delete(int id) {
 		// TODO Auto-generated method stub
