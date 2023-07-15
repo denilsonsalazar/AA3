@@ -6,10 +6,41 @@
 <link rel="stylesheet" href="" th:href="@{/estilo.css}"/>
 </head>
 <body>
-  <div class="container">
-    <h1>Bienvenido(a)</h1>
-    <p>Gracias por visitar nuestra página de bienvenida.</p>
-    <a th:href="@{/new}" class="btn">Registrate</a>
-  </div>
+   <div id="cuadro-menu">
+    <div id="po1">
+    </div>
+    <div id="po2">
+        <div class="search-container">
+            <form action="/search" method="get">
+              <input type="text" name="query" placeholder="Buscar...">
+              <input type="submit" value="Buscar">
+            </form>
+          </div>
+    </div>
+    <div id="po2-1">
+        <div id="carrito">
+            <a href=""><img th:src="@{/img/carrito.png}" alt="carrito" width="80px"/></a>
+        </div>
+        <div id="login">
+            <a id="decoracion" th:href="@{/new}"><h2>Ingresar</h2></a>
+        </div>
+    </div>
+    <div id="po3">
+        <ul>
+            <li><a href="#">Sillas Gamer</a></li>
+            <li><a href="mauses.html">Mauses</a></li>
+            <li><a href="teclados.html">Teclados</a></li>
+            <li><a href="audifonos.html">Audifonos</a></li>
+            <li><a href="Accesorios.html">Accesorios</a></li>
+        </ul>
+    </div>
+    <div id="po3-1"></div>
+ </div>
+ <div id="oferta">
+    <div id="ofer1">
+        <img src="img/Ofer.png" alt="Oferta" style="border-radius: 100%;" width="100%">
+        <div id="ofer2"><h1>Cualquier silla gamer de color rojo a solo S/ 600</h1></div>
+    </div>
+ </div>
 </body>
 </html>

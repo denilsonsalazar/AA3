@@ -40,3 +40,270 @@ body {
     .btn:hover {
       background-color: #0056b3;
     }
+    *{
+    margin: 0;
+    padding: 0;
+}
+#cuadro-menu{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 0, 0);
+}
+#po1{
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+#po2{
+    float: left;
+    width: 60%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+#po2-1{
+    float: right;
+    width: 20%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+#carrito{
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+#login{
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 33px;
+}
+#po3{
+    float: right;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+#po3 li a{
+    margin: 2px;
+    font-size: 15px;
+}
+#po3-1{
+    float: right;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(124, 124, 124);
+    
+}
+/*cuadro-productos*/
+#cuadro-productos{
+    margin: auto;
+    width: 60%;
+    height: auto;
+    background-color: #ffffff;
+}
+#filtros{
+    float: left;
+    width: 20%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    margin:20px 0 0 0 ;
+}
+#pru{
+    padding: 20px 0 0 10px;
+    height: 260px;
+    border: 1px #c7c7c7 solid ;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#productos{
+    float: right;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+#pro-1{
+    width: 843px;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+}
+/*productos*/
+#caja{
+    float: left;
+    border-top: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
+    width: 280px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+#pag{
+    float: right;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+}
+/*buscador*/
+.search-container {
+    text-align: center;
+    margin-top: 30px;
+
+  }
+  
+  .search-container input[type=text] {
+    padding: 10px 0 10px 60px;
+    width: 80%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(img/lupa.png);
+    background-position-x: 10px;
+    background-position-y: 1px;
+    background-size: 35px;
+    background-repeat: no-repeat;
+  }
+  
+  .search-container input[type=submit] {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 0px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+/*letras*/
+#decoracion{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: table;
+    width: auto;
+}
+
+li {
+    display: table-cell;
+    float: none;
+}
+
+li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+/*cuadro oferta*/
+#oferta{
+    width: 100%;
+    height: 900px;
+    background-size: 100%;
+    background-image: url(img/sillas.jpg);
+    background-repeat: no-repeat;
+    padding: 200px 0 0 0px;
+}
+#ofer1{
+    float: right;
+    text-align: center;
+    width: 30%;
+    margin: 0 200px 0 0px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c44545;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#ofer2{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+#Promo{
+    float: right;
+    width: 100%;
+    height: 1000px;
+    background-color: aqua;
+}
+/*CheckBox*/
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+  
+  .checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #ee9999;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+/*cantidad de dinero*/
+.di input{
+    margin: 10px;
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+.di1 input{
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+    float: right;
+}
